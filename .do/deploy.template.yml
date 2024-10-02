@@ -1,7 +1,7 @@
 spec:
-  name: hi-events
+  name: explodecoracao
   services:
-    - name: hi-events
+    - name: app-explodecoracao
       dockerfile_path: Dockerfile
       http_port: 80
       git:
@@ -49,4 +49,4 @@ spec:
           scope: RUN_TIME
           value: 'false'
   databases:
-    - name: hi-events-db
+    - name: db-explodecoracao
