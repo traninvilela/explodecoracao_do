@@ -5,7 +5,7 @@ spec:
       dockerfile_path: Dockerfile
       http_port: 80
       git:
-        repo_clone_url: https://github.com/traninvilela/explodecoracao.git
+        repo_clone_url: https://github.com/traninvilela/explodecoracao_do.git
         branch: main
       envs:
         - key: APP_KEY
